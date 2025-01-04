@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Symbolconfiguration xmlns="http://www.3s-software.com/schemas/Symbolconfiguration.xsd">
+  <Header>
+    <Version>3.5.14.0</Version>
+    <SymbolConfigObject version="4.5.2.0" runtimeid="3.5.20.40" libversion="4.5.0.0" compiler="3.5.20.40" lmm="3.5.20.40" profile="CODESYS V3.5 SP20 Patch 4+" settings="SupportOPCUA, LayoutCalculator=OptimizedClientSideLayoutCalculator" />
+    <ProjectInfo name="Trabalho" devicename="Device" appname="Application" />
+  </Header>
+  <TypeList>
+    <TypeSimple name="T_BOOL" size="1" swapsize="0" typeclass="Bool" iecname="BOOL" />
+    <TypeSimple name="T_DINT" size="4" swapsize="4" typeclass="DInt" iecname="DINT" />
+  </TypeList>
+  <NodeList>
+    <Node name="Application">
+      <Node name="Prod">
+        <Node name="I00" type="T_BOOL" access="ReadWrite" />
+        <Node name="I01" type="T_BOOL" access="ReadWrite" />
+        <Node name="I02" type="T_BOOL" access="ReadWrite" />
+        <Node name="I03" type="T_BOOL" access="ReadWrite" />
+        <Node name="I04" type="T_BOOL" access="ReadWrite" />
+        <Node name="I05" type="T_BOOL" access="ReadWrite" />
+        <Node name="I06" type="T_BOOL" access="ReadWrite" />
+        <Node name="I07" type="T_BOOL" access="ReadWrite" />
+        <Node name="I10" type="T_BOOL" access="ReadWrite" />
+        <Node name="Q00" type="T_BOOL" access="ReadWrite" />
+        <Node name="Q01" type="T_BOOL" access="ReadWrite" />
+        <Node name="Q02" type="T_BOOL" access="ReadWrite" />
+        <Node name="Q03" type="T_BOOL" access="ReadWrite" />
+        <Node name="Q04" type="T_BOOL" access="ReadWrite" />
+        <Node name="Q05" type="T_BOOL" access="ReadWrite" />
+        <Node name="Q06" type="T_BOOL" access="ReadWrite" />
+        <Node name="Q07" type="T_BOOL" access="ReadWrite" />
+        <Node name="Q10" type="T_BOOL" access="ReadWrite" />
+        <Node name="Q11" type="T_BOOL" access="ReadWrite" />
+        <Node name="Q12" type="T_BOOL" access="ReadWrite" />
+        <Node name="Q13" type="T_BOOL" access="ReadWrite" />
+        <Node name="Q14" type="T_BOOL" access="ReadWrite" />
+        <Node name="Q15" type="T_BOOL" access="ReadWrite" />
+        <Node name="Q16" type="T_BOOL" access="ReadWrite" />
+        <Node name="QD30" type="T_DINT" access="ReadWrite" />
+        <Node name="QD34" type="T_DINT" access="ReadWrite" />
+      </Node>
+    </Node>
+  </NodeList>
+</Symbolconfiguration>
