@@ -11,6 +11,47 @@
   </TypeList>
   <NodeList>
     <Node name="Application">
+      <Node name="Assembler">
+        <Node name="FIO_abases_conveyor" type="T_BOOL" access="ReadWrite" />
+        <Node name="FIO_abases_emitter" type="T_BOOL" access="ReadWrite" />
+        <Node name="FIO_aClamp_base" type="T_BOOL" access="ReadWrite" />
+        <Node name="FIO_aClamp_lid" type="T_BOOL" access="ReadWrite" />
+        <Node name="FIO_aCounter" type="T_BOOL" access="ReadWrite" />
+        <Node name="FIO_aFACTORT_reset" type="T_BOOL" access="ReadWrite" />
+        <Node name="FIO_aFACTORY_paused" type="T_BOOL" access="ReadWrite" />
+        <Node name="FIO_aFACTORY_running" type="T_BOOL" access="ReadWrite" />
+        <Node name="FIO_aGrab" type="T_BOOL" access="ReadWrite" />
+        <Node name="FIO_alids_conveyor" type="T_BOOL" access="ReadWrite" />
+        <Node name="FIO_alids_emitter" type="T_BOOL" access="ReadWrite" />
+        <Node name="FIO_aMove_x" type="T_BOOL" access="ReadWrite" />
+        <Node name="FIO_aMove_z" type="T_BOOL" access="ReadWrite" />
+        <Node name="FIO_aPos_raise_bases" type="T_BOOL" access="ReadWrite" />
+        <Node name="FIO_aPos_raise_lids" type="T_BOOL" access="ReadWrite" />
+        <Node name="FIO_aRemover_1" type="T_BOOL" access="ReadWrite" />
+        <Node name="FIO_aRemover_2" type="T_BOOL" access="ReadWrite" />
+        <Node name="FIO_aReset_light" type="T_BOOL" access="ReadWrite" />
+        <Node name="FIO_aStart_light" type="T_BOOL" access="ReadWrite" />
+        <Node name="FIO_aStop_light" type="T_BOOL" access="ReadWrite" />
+        <Node name="FIO_sAuto" type="T_BOOL" access="ReadWrite" />
+        <Node name="FIO_sBase_at_place" type="T_BOOL" access="ReadWrite" />
+        <Node name="FIO_sBase_clamped" type="T_BOOL" access="ReadWrite" />
+        <Node name="FIO_sEmergency_stop" type="T_BOOL" access="ReadWrite" />
+        <Node name="FIO_sFACTORT_reset" type="T_BOOL" access="ReadWrite" />
+        <Node name="FIO_sFACTORY_paused" type="T_BOOL" access="ReadWrite" />
+        <Node name="FIO_sFACTORY_running" type="T_BOOL" access="ReadWrite" />
+        <Node name="FIO_sItem_detected" type="T_BOOL" access="ReadWrite" />
+        <Node name="FIO_sLid_at_place" type="T_BOOL" access="ReadWrite" />
+        <Node name="FIO_sLid_clamped" type="T_BOOL" access="ReadWrite" />
+        <Node name="FIO_sManual" type="T_BOOL" access="ReadWrite" />
+        <Node name="FIO_sMoving_x" type="T_BOOL" access="ReadWrite" />
+        <Node name="FIO_sMoving_z" type="T_BOOL" access="ReadWrite" />
+        <Node name="FIO_sPart_leaving" type="T_BOOL" access="ReadWrite" />
+        <Node name="FIO_sPos_at_limit_bases" type="T_BOOL" access="ReadWrite" />
+        <Node name="FIO_sPos_at_limit_lids" type="T_BOOL" access="ReadWrite" />
+        <Node name="FIO_sReset" type="T_BOOL" access="ReadWrite" />
+        <Node name="FIO_sStart" type="T_BOOL" access="ReadWrite" />
+        <Node name="FIO_sStop" type="T_BOOL" access="ReadWrite" />
+      </Node>
       <Node name="Prod">
         <Node name="I00" type="T_BOOL" access="ReadWrite" />
         <Node name="I01" type="T_BOOL" access="ReadWrite" />
@@ -36,6 +77,7 @@
         <Node name="Q14" type="T_BOOL" access="ReadWrite" />
         <Node name="Q15" type="T_BOOL" access="ReadWrite" />
         <Node name="Q16" type="T_BOOL" access="ReadWrite" />
+        <Node name="Q17" type="T_BOOL" access="ReadWrite" />
         <Node name="QD30" type="T_DINT" access="ReadWrite" />
         <Node name="QD34" type="T_DINT" access="ReadWrite" />
       </Node>
